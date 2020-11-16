@@ -7,7 +7,7 @@ jobs:
       steps:
       - name: Annotate ✒
         run: |
-echo ::warning line=1,col=4,file=filename0.sh::This is an annotation number 0
+          echo ::warning line=1,col=4,file=filename0.sh::This is an annotation number 0
           echo ::warning line=1,col=4,file=filename1.sh::This is an annotation number 1
           echo ::warning line=1,col=4,file=filename2.sh::This is an annotation number 2
           echo ::warning line=1,col=4,file=filename3.sh::This is an annotation number 3
