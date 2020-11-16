@@ -1,0 +1,111 @@
+name: Lots of annotations
+on: [workflow_dispatch]
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Annotate ✒
+        run: |
+echo ::warning line=1,col=4,file=filename0.sh::This is an annotation number 0
+          echo ::warning line=1,col=4,file=filename1.sh::This is an annotation number 1
+          echo ::warning line=1,col=4,file=filename2.sh::This is an annotation number 2
+          echo ::warning line=1,col=4,file=filename3.sh::This is an annotation number 3
+          echo ::warning line=1,col=4,file=filename4.sh::This is an annotation number 4
+          echo ::warning line=1,col=4,file=filename5.sh::This is an annotation number 5
+          echo ::warning line=1,col=4,file=filename6.sh::This is an annotation number 6
+          echo ::warning line=1,col=4,file=filename7.sh::This is an annotation number 7
+          echo ::warning line=1,col=4,file=filename8.sh::This is an annotation number 8
+          echo ::warning line=1,col=4,file=filename9.sh::This is an annotation number 9
+          echo ::warning line=1,col=4,file=filename10.sh::This is an annotation number 10
+          echo ::warning line=1,col=4,file=filename11.sh::This is an annotation number 11
+          echo ::warning line=1,col=4,file=filename12.sh::This is an annotation number 12
+          echo ::warning line=1,col=4,file=filename13.sh::This is an annotation number 13
+          echo ::warning line=1,col=4,file=filename14.sh::This is an annotation number 14
+          echo ::warning line=1,col=4,file=filename15.sh::This is an annotation number 15
+          echo ::warning line=1,col=4,file=filename16.sh::This is an annotation number 16
+          echo ::warning line=1,col=4,file=filename17.sh::This is an annotation number 17
+          echo ::warning line=1,col=4,file=filename18.sh::This is an annotation number 18
+          echo ::warning line=1,col=4,file=filename19.sh::This is an annotation number 19
+          echo ::warning line=1,col=4,file=filename20.sh::This is an annotation number 20
+          echo ::warning line=1,col=4,file=filename21.sh::This is an annotation number 21
+          echo ::warning line=1,col=4,file=filename22.sh::This is an annotation number 22
+          echo ::warning line=1,col=4,file=filename23.sh::This is an annotation number 23
+          echo ::warning line=1,col=4,file=filename24.sh::This is an annotation number 24
+          echo ::warning line=1,col=4,file=filename25.sh::This is an annotation number 25
+          echo ::warning line=1,col=4,file=filename26.sh::This is an annotation number 26
+          echo ::warning line=1,col=4,file=filename27.sh::This is an annotation number 27
+          echo ::warning line=1,col=4,file=filename28.sh::This is an annotation number 28
+          echo ::warning line=1,col=4,file=filename29.sh::This is an annotation number 29
+          echo ::warning line=1,col=4,file=filename30.sh::This is an annotation number 30
+          echo ::warning line=1,col=4,file=filename31.sh::This is an annotation number 31
+          echo ::warning line=1,col=4,file=filename32.sh::This is an annotation number 32
+          echo ::warning line=1,col=4,file=filename33.sh::This is an annotation number 33
+          echo ::warning line=1,col=4,file=filename34.sh::This is an annotation number 34
+          echo ::warning line=1,col=4,file=filename35.sh::This is an annotation number 35
+          echo ::warning line=1,col=4,file=filename36.sh::This is an annotation number 36
+          echo ::warning line=1,col=4,file=filename37.sh::This is an annotation number 37
+          echo ::warning line=1,col=4,file=filename38.sh::This is an annotation number 38
+          echo ::warning line=1,col=4,file=filename39.sh::This is an annotation number 39
+          echo ::warning line=1,col=4,file=filename40.sh::This is an annotation number 40
+          echo ::warning line=1,col=4,file=filename41.sh::This is an annotation number 41
+          echo ::warning line=1,col=4,file=filename42.sh::This is an annotation number 42
+          echo ::warning line=1,col=4,file=filename43.sh::This is an annotation number 43
+          echo ::warning line=1,col=4,file=filename44.sh::This is an annotation number 44
+          echo ::warning line=1,col=4,file=filename45.sh::This is an annotation number 45
+          echo ::warning line=1,col=4,file=filename46.sh::This is an annotation number 46
+          echo ::warning line=1,col=4,file=filename47.sh::This is an annotation number 47
+          echo ::warning line=1,col=4,file=filename48.sh::This is an annotation number 48
+          echo ::warning line=1,col=4,file=filename49.sh::This is an annotation number 49
+          echo ::warning line=1,col=4,file=filename50.sh::This is an annotation number 50
+          echo ::warning line=1,col=4,file=filename51.sh::This is an annotation number 51
+          echo ::warning line=1,col=4,file=filename52.sh::This is an annotation number 52
+          echo ::warning line=1,col=4,file=filename53.sh::This is an annotation number 53
+          echo ::warning line=1,col=4,file=filename54.sh::This is an annotation number 54
+          echo ::warning line=1,col=4,file=filename55.sh::This is an annotation number 55
+          echo ::warning line=1,col=4,file=filename56.sh::This is an annotation number 56
+          echo ::warning line=1,col=4,file=filename57.sh::This is an annotation number 57
+          echo ::warning line=1,col=4,file=filename58.sh::This is an annotation number 58
+          echo ::warning line=1,col=4,file=filename59.sh::This is an annotation number 59
+          echo ::warning line=1,col=4,file=filename60.sh::This is an annotation number 60
+          echo ::warning line=1,col=4,file=filename61.sh::This is an annotation number 61
+          echo ::warning line=1,col=4,file=filename62.sh::This is an annotation number 62
+          echo ::warning line=1,col=4,file=filename63.sh::This is an annotation number 63
+          echo ::warning line=1,col=4,file=filename64.sh::This is an annotation number 64
+          echo ::warning line=1,col=4,file=filename65.sh::This is an annotation number 65
+          echo ::warning line=1,col=4,file=filename66.sh::This is an annotation number 66
+          echo ::warning line=1,col=4,file=filename67.sh::This is an annotation number 67
+          echo ::warning line=1,col=4,file=filename68.sh::This is an annotation number 68
+          echo ::warning line=1,col=4,file=filename69.sh::This is an annotation number 69
+          echo ::warning line=1,col=4,file=filename70.sh::This is an annotation number 70
+          echo ::warning line=1,col=4,file=filename71.sh::This is an annotation number 71
+          echo ::warning line=1,col=4,file=filename72.sh::This is an annotation number 72
+          echo ::warning line=1,col=4,file=filename73.sh::This is an annotation number 73
+          echo ::warning line=1,col=4,file=filename74.sh::This is an annotation number 74
+          echo ::warning line=1,col=4,file=filename75.sh::This is an annotation number 75
+          echo ::warning line=1,col=4,file=filename76.sh::This is an annotation number 76
+          echo ::warning line=1,col=4,file=filename77.sh::This is an annotation number 77
+          echo ::warning line=1,col=4,file=filename78.sh::This is an annotation number 78
+          echo ::warning line=1,col=4,file=filename79.sh::This is an annotation number 79
+          echo ::warning line=1,col=4,file=filename80.sh::This is an annotation number 80
+          echo ::warning line=1,col=4,file=filename81.sh::This is an annotation number 81
+          echo ::warning line=1,col=4,file=filename82.sh::This is an annotation number 82
+          echo ::warning line=1,col=4,file=filename83.sh::This is an annotation number 83
+          echo ::warning line=1,col=4,file=filename84.sh::This is an annotation number 84
+          echo ::warning line=1,col=4,file=filename85.sh::This is an annotation number 85
+          echo ::warning line=1,col=4,file=filename86.sh::This is an annotation number 86
+          echo ::warning line=1,col=4,file=filename87.sh::This is an annotation number 87
+          echo ::warning line=1,col=4,file=filename88.sh::This is an annotation number 88
+          echo ::warning line=1,col=4,file=filename89.sh::This is an annotation number 89
+          echo ::warning line=1,col=4,file=filename90.sh::This is an annotation number 90
+          echo ::warning line=1,col=4,file=filename91.sh::This is an annotation number 91
+          echo ::warning line=1,col=4,file=filename92.sh::This is an annotation number 92
+          echo ::warning line=1,col=4,file=filename93.sh::This is an annotation number 93
+          echo ::warning line=1,col=4,file=filename94.sh::This is an annotation number 94
+          echo ::warning line=1,col=4,file=filename95.sh::This is an annotation number 95
+          echo ::warning line=1,col=4,file=filename96.sh::This is an annotation number 96
+          echo ::warning line=1,col=4,file=filename97.sh::This is an annotation number 97
+          echo ::warning line=1,col=4,file=filename98.sh::This is an annotation number 98
+          echo ::warning line=1,col=4,file=filename99.sh::This is an annotation number 99
+          echo ::warning line=1,col=4,file=filename100.sh::This is an annotation number 100
+  
