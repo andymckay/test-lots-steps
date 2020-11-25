@@ -10,8 +10,8 @@ jobs:
     steps:
       - name: A step
         run: |
-          while 1
-          do
-            echo This is a line at `date`
-            sleep 1s
-          done
+          while [ true ]
+           do
+             echo This is a line at - `date`
+             sleep 1s
+           done
