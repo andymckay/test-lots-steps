@@ -1,0 +1,17 @@
+name: Lots of logs
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: A step
+        run: |
+          while 1
+          do
+            echo This is a line at `date`
+            sleep 1s
+          end
