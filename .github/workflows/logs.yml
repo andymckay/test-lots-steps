@@ -14,4 +14,4 @@ jobs:
           do
             echo This is a line at `date`
             sleep 1s
-          end
+          done
