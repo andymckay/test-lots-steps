@@ -3,7 +3,7 @@ on: [workflow_dispatch]
 
 jobs:
     build:
-      runs-on: actions-ghae-bugbash-runner-1
+      runs-on: ubuntu-latest
       steps:
       - name: Annotate ✒
         run: |
